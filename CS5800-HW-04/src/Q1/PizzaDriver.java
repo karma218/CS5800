@@ -16,7 +16,7 @@ public class PizzaDriver {
             Pizza pizzaHutMedium = director.constructPizza("Medium", List.of("Pepperoni", "Mushrooms", "Extra Cheese", "Bacon", "Onions", "Peppers"), "Pizza Hut");
             pizzaHutMedium.eat();
 
-            Pizza pizzaHutLarge = director.constructPizza("Large", List.of("Pepperoni", "Mushrooms", "Extra Cheese", "Bacon", "Onions", "Peppers", "Chicken", "Spinach"), "Pizza Hut");
+            Pizza pizzaHutLarge = director.constructPizza("Large", List.of("Pepperoni", "Mushrooms", "Extra Cheese", "Bacon", "Onions", "Peppers", "Chicken", "Spinach", "Ham and Pineapple"), "Pizza Hut");
             pizzaHutLarge.eat();
 
 
@@ -28,7 +28,7 @@ public class PizzaDriver {
             Pizza pizzaLittleCaesarsSmall = director.constructPizza(("Small"), List.of("Mushrooms", "Extra Cheese", "Bacon", "Onions", "Chicken","Sausage"), "Little Caesars");
 
             Pizza pizzaDominosSmall = director.constructPizza(("Small"), List.of("Ham and Pineapple"), "Dominos");
-            Pizza pizzaDominosLarge = director.constructPizza(("Small"), List.of("Pesto", "Extra Cheese", "Onions"), "Dominos");
+            Pizza pizzaDominosLarge = director.constructPizza(("Large"), List.of("Pesto", "Extra Cheese", "Onions"), "Dominos");
 
             //Eating pizzas in part 2
 
